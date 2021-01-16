@@ -20,3 +20,16 @@ let allWagesFor = function () {
 
     return payable
 }
+
+let createEmployeeRecord = function(elmployeeArray) {
+    return {
+        firstName: elmployeeArray[0],
+        familyName: elmployeeArray[1],
+        title: elmployeeArray[2],
+        payPerHour: elmployeeArray[3],
+        timeInEvents: [],
+        timeOutEvents: []
+    }
+}
+
+let createEmployeeRecords
